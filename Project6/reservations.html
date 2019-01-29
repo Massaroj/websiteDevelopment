@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Reservations</title>
+  <link rel="shortcut icon" href="./images/favicon.ico"/>
+  <link rel="stylesheet" type="text/css" href="./bistro.css" media="screen" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="./date.js"></script>
+</head>
+
+
+<body>
+  <div class = "wrapper">
+    <header>
+      <h1>The Lighthouse Bistro</h1>
+    </header>
+    <div id = "inside">
+    <nav>
+      <ul>
+        <li><a href='index.html'>Home</a></li>
+        <li><a href="menu.html">Our Menu</a></li>
+        <li><a href="entertainmentSchedule.html">Entertainment Schedule</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
+      </ul>
+      <aside>
+        <div id="address">
+          <p id="inneraddress">
+            The Lighthouse Bistro
+            <br>
+            #27 Lighthouse Road
+            <br>
+            Mackinac City, Michigan 49701</p>
+            <div id="tele" >888-555-5555</div>
+            <a id="hyperPhone" href="tel:888-555-5555">888-555-5555</a>
+        </div>
+      </aside>
+
+    </nav>
+
+    <article>
+      <div id="main" role = "main">
+        <h2>Reservations at The Lighthouse Bistro</h2>
+
+        <h3>Contact Us Today To Make Your Dining Reservation!</h3>
+        <h4>Required Fields are Marked with an Asterisk *</h4>
+        <form method="post" action="http://cs.ucf.edu/~markl/bistroformreport.php">
+          <fieldset>
+            <ul>
+              <li>
+                <label for="firstname">*First Name: </label>
+                <input type="text" id="firstname" name="firstname" class="large" required="required" placeholder="Enter your first name" /><br>
+              </li>
+              <li>
+                <label for="lastname">*Last Name: </label>
+                <input type="text" id="lastname" name="lastname" class="large" required="required" placeholder="Enter your last name" /><br>
+              </li>
+              <li>
+                <label for="firstname">*E-mail: </label>
+                <input type="text" id="E-mail" name="E-mail" class="large" required="required" placeholder="Enter your E-mail" /><br>
+              </li>
+              <li>
+                <label for="telephone">Phone: </label>
+                <input type="tel" id="telephone" name="telephone" class="large" placeholder="Enter your phone number" /><br>
+              </li>
+              <li>
+                <label for="dateinput">Date: </label>
+                <input type="date" id="dateinput" name="dateinput" class="large" /><br>
+              </li>
+              <li>
+                <label for="time">Time: </label>
+                <input type="time" id="time" name="time" class="large" /><br>
+              </li>
+              <li>
+                <label for="guestnum">Number of Guests: </label>
+                <input type="number" id="guestnum" name="guestnum" class="large" /><br>
+              </li>
+              <li>
+                <label for="comments">*Comments: </label>
+                <textarea id="comments" name="comments" class="large" required="required" rows='2' cols='32'></textarea><br>
+                <div class = "charCount" id="countchars"></div>
+              </li>
+            </ul>
+            <input type="submit" value="Submit">
+          </fieldset>
+        </form>
+      </div>
+    </article>
+    <br>
+    <footer>
+      <div>
+        Copyright &copy; 2018 The Lighthouse Bistro<br>
+        <a href="Jake@Massaro.com">Jake@Massaro.com</a>
+        <br>Today is : <div id = "dateTime"></div>
+      </div>
+    </footer>
+    <br>
+  </div>
+</div>
+</body>
+</html>

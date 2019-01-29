@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Activities</title>
+  <link rel="shortcut icon" href="./images/favicon.ico"/>
+  <link rel="stylesheet" type="text/css" href="./bistro.css" media="screen" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="./date.js"></script>
+</head>
+
+
+<body>
+  <div class = "wrapper">
+    <header>
+      <h1>The Lighthouse Bistro</h1>
+    </header>
+    <div id = "inside">
+    <nav>
+      <ul>
+        <li><a href = 'index.html'>Home</a></li>
+        <li><a href = "menu.html">Our Menu</a></li>
+        <li><a href = "entertainmentSchedule.html">Entertainment Schedule</a></li>
+        <li><a href = "reservations.html">Reservations</a></li>
+      </ul>
+      <aside>
+        <div id = "address">
+          <p id = "inneraddress">
+            The Lighthouse Bistro
+            <br>
+            #27 Lighthouse Road
+            <br>
+            Mackinac City, Michigan 49701</p>
+            <div id = "tele">888-555-5555</div>
+            <a id = "hyperPhone" href = "tel:888-555-5555">888-555-5555</a>
+        </div>
+      </aside>
+
+    </nav>
+
+    <article>
+      <div id = "main" role = "main">
+        <h2>The Lighthouse Bistro Entertainment Schedule</h2>
+        <p>
+          We have some very special concerts coming up next month.
+          You won't want to miss these. Schedule your reservations now.
+          Each concert begins at 8pm and will run aproximately 2 hours in length.
+        </p>
+
+        <h4 class = 'videoTitle'>
+          May 1st - 10th - Nightly
+        </h4>
+        <img class = "videoImg" src = './images/rondo6.jpg' alt = "Incontro"/><br>
+        <p>Rondo Veneziano - Baroque period Music. Fascinating period costimes. Listen
+           to Incontro.</p>
+        <audio controls = "controls">
+          <source src="./images/13Incontro.mp3" type="audio/mp3">
+        </audio>
+
+        <h4 class = 'videoTitle'>
+          May 15th - 20th - Nightly
+        </h4>
+        <img class = "videoImg" src = './images/rondo4.jpg' alt = "Incontro"/><br>
+        <p>Rondo Veneziano - Group2 - The second touring group of this chamber
+           orchstra. Incredible music. Listen to Pulcinella.</p>
+        <audio controls = "controls">
+          <source src = "./images/Pulcinella.wav" type = "audio/wav">
+        </audio>
+
+      </div>
+    </article>
+    <br>
+    <footer>
+      <div>
+        Copyright &copy; 2018 The Lighthouse Bistro<br>
+        <a href="Jake@Massaro.com">Jake@Massaro.com</a>
+        <br>Today is : <div id = "dateTime"></div>
+      </div>
+    </footer>
+    <br>
+  </div>
+</div>
+</body>
+</html>

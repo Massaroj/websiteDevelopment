@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>The LightHouse Bistro Menu</title>
+    <link rel="stylesheet" type="text/css" href="./bistro.css" />
+    <link rel="shortcut icon" href="./images/favicon.ico"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="date.js"></script>
+</head>
+
+<body>
+  <div class = "wrapper">
+    <header>
+      <h1>The Lighthouse Bistro</h1>
+    </header>
+    <div id="inside">
+    <nav>
+      <ul>
+        <li><a href = 'index.html'>Home</a></li>
+        <li><a href = "menu.html">Our Menu</a></li>
+        <li><a href = "entertainmentSchedule.html">Entertainment Schedule</a></li>
+        <li><a href = "reservations.html">Reservations</a></li>
+      </ul>
+      <aside>
+        <div id="address">
+          <p id="inneraddress">
+            The Lighthouse Bistro
+            <br>
+            #27 Lighthouse Road
+            <br>
+            Mackinac City, Michigan 49701</p>
+
+            <p id="tele" >888-555-5555</p>
+            <a id="hyperPhone" href="tel:888-555-5555">888-555-5555</a>
+        </div>
+      </aside>
+
+    </nav>
+      <div id="main" role = "main">
+
+        <!--Table containing food description and images-->
+        <table>
+          <caption>Some of our Coffees</caption>
+          <thead>
+            <tr>
+              <th id="nameC">Coffee</th>
+              <th id="descriptionC">Description</th>
+              <th id="priceC">Price</th>
+              <th id="imageC">Image</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td headers="nameC">Just Java</td>
+              <td headers="descriptionC">Regular house blend, decaffeinated coffee, or flavor for the day</td>
+              <td headers="priceC">Endless Cup $2.00</td>
+              <td headers="imageC"><img src='./images/coffee1.jpg' alt="coffee1"/></td>
+            </tr>
+            <tr>
+              <td headers="nameC">Cafe au Lait</td>
+              <td headers="descriptionC">House blended coffee infused into a smooth, steamed milk.</td>
+              <td headers="priceC">Single $2.00,<br>Double $3.00</td>
+              <td headers="imageC"><img src='./images/coffee2.jpg' alt="coffee2"/></td>
+            </tr>
+            <tr>
+              <td headers="nameC">Iced Cappuccino</td>
+              <td headers="descriptionC">Sweetened espresso blended with icy-cold milk and served in a chilled glass.</td>
+              <td headers="priceC">Single $4.75,<br>Double $5.75,<br>Wow! $7.75</td>
+              <td headers="imageC"><img src='./images/coffee3.jpg' alt="coffee3"/></td>
+            </tr>
+            <tr>
+              <td headers="nameC">Espresso</td>
+              <td headers="descriptionC">Our house blend espresso - the best!</td>
+              <td headers="priceC">Single $5.00,<br>Double $7.50</td>
+            <td headers="imageC"><img src='./images/espresso1.png' alt="espresso1"/></td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <table>
+          <caption>Teas</caption>
+            <thead>
+            <tr>
+              <th id="nameT">Tea</th>
+              <th id="descriptionT">Description</th>
+              <th id="priceT">Price</th>
+              <th id="imageT">Image</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td headers="nameT">Breakfast Teas</td>
+              <td headers="descriptionT">Darjeeling, English Breakfast, Queen Anne, Green Tea with Lemon.</td>
+              <td headers="priceT">Endless Cup $2.00</td>
+              <td headers="imageT"><img src='./images/tea1.jpg' alt="tea1"/></td>
+            </tr>
+            <tr>
+              <td headers="nameT">Afternoon Teas</td>
+              <td headers="descriptionT">Lemon, Pure Peppermint, Earl Grey, China Oolong.</td>
+              <td headers="priceT">Endless Cup $3.00</td>
+              <td headers="imageT"><img src='./images/tea2.jpg' alt="tea2"/></td>
+            </tr>
+            <tr>
+              <td headers="nameT">Exotic Teas</td>
+              <td headers="descriptionT">Orange & Cinnammon Spice, Camomile, Honey & Vanilla, Pomegranate & Raspberry.</td>
+              <td headers="priceT">One Cup $3.00</td>
+              <td headers="imageT"><img src='./images/tea3.jpg' alt="tea3"/></td>
+            </tr>
+            </tbody>
+          </table>
+          <br>
+          <table>
+            <caption>Snacks</caption>
+            <thead>
+            <tr>
+              <th id="nameS">Snack</th>
+              <th id="descriptionS">Description</th>
+              <th id="priceS">Price</th>
+              <th id="imageS">Image</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td headers="nameS">Bagels and Muffins</td>
+              <td headers="descriptionS">Bagels, Plain Muffins, Blueberry Muffins, Chocolate Muffins, and much more.</td>
+              <td headers="priceS">Small $3.00   Large $3.00</td>
+              <td headers="imageS"><img src='./images/muffin1.jpg' alt="muffin1"/></td>
+            </tr>
+            <tr>
+              <td headers="nameS">Organic Snacks</td>
+              <td headers="descriptionS">Organic chips with sea salt, Organic salads</td>
+              <td headers="priceS">Prices Vary</td>
+              <td headers="imageS"><img src='./images/salad1.jpg' alt="salad1"/></td>
+            </tr>
+            <tr>
+              <td headers="nameS">Fresh Fish</td>
+              <td headers="descriptionS">Clam strips, Fried Fish Strips, Fried Oysters, and many other seasonal selections</td>
+              <td headers="priceS">Prices vary by season $5.75-$15.00</td>
+              <td headers="imageS"><img src='./images/clamstrips.png' alt="clamstrips"/></td>
+            </tr>
+            </tbody>
+          </table>
+
+          <div class = "mobileText">
+           <h2>Our Coffees</h2>
+           <p>Our coffees are well-known throughout the region as bold and flavorful. We offer
+           many different types of coffees, one of which is sure to satisfy your taste. Prices
+           start at $2.00 per cup.</p>
+           <h2>Our Teas</h2>
+           <p>Our teas are hand-selected from around the world to bring you a wide variety of
+           possibilities. We specialize in flavorful afternoon teas as well as a wide
+           assortment of exotic teas. Stop in and try a cup! Prices start $2.00 per cup.</p>
+           <h2>Our Snacks</h2>
+           <p>We offer a wide variety of foods ranging from simple snacks to complete inners.
+           Our specialties are organic salads and fresh seafood. Try our fried clam strips
+           and fish strips. The locals swear these are the best you'll find anywhere. Prices
+           are seasonal, but always a real deal.</p>
+         </div>
+      </div>
+    <br><br>
+
+    <!--Footer containing Copyright and Email-->
+   <footer>
+    <div>
+      Copyright &copy; 2018 The Lighthouse Bistro<br>
+      <a href="Jake@Massaro.com">Jake@Massaro.com</a>
+      <br>Today is : <div id = "dateTime"></div>
+    </div>
+   </footer>
+   <br>
+  </div>
+ </div>
+ </body>
+</html>

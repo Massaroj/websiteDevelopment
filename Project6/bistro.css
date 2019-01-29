@@ -1,0 +1,525 @@
+body,
+html
+{
+  width: 100%;
+  height: 100%;
+}
+
+h1
+{
+  height: 110px;
+  padding-left: 130px;
+  padding-top: 30px;
+  border-radius: 15px;
+  border-color: #FFE4C4;
+}
+
+body
+{
+  background-color: #00BFFF;
+  font-family: verdana, arial, sans-serif;
+  background-image: url("./images/ocean.jpg");
+  background-repeat: repeat-x;
+}
+
+nav a
+{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h3
+{
+  color: #FFE4C4;
+}
+
+dt
+{
+  color: #FFE4C4;
+}
+
+dd
+{
+  color: #221811;
+}
+
+dl
+{
+  color: #221811;
+}
+
+td:first-child + td
+{
+  text-align: left;
+  left: 50%;
+}
+
+ul
+{
+  list-style-type: none;
+  -webkit-padding-start: 0px;
+}
+
+td:first-child + td + td
+{
+  text-align: center;
+}
+
+td:first-child
+{
+  text-align: center;
+}
+
+tr:first-of-type
+{
+  background-color: inherit;
+}
+
+tr:nth-of-type(even)
+{
+  background-color: #A9A9A9;
+  color: #191970;
+}
+
+caption
+{
+  font-size: 1.2em;
+  text-align: left;
+}
+
+td, th
+{
+  border: 1px solid #FFE4C4;
+  border-collapse: collapse;
+}
+
+header h1
+{
+  background-image: url("./images/lighthouselogo.jpg");
+  height: 110px;
+  padding-left: 130px;
+  padding-top: 30px;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: #FFE4C4;
+  color: #00008B;
+}
+
+nav
+{
+  width: 200px;
+  display: table-cell;
+  padding: 10px;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 20px;
+}
+
+table
+{
+    width: 575px;
+    display: table-cell;
+}
+
+th
+{
+   background-color: #191970;
+   color: white;
+}
+
+td img
+{
+  height: 75px;
+  width: 100px;
+}
+
+article
+{
+  display: table-cell;
+  padding: 10px 20px;
+}
+
+aside
+{
+  padding-top: 100px;
+}
+
+img
+{
+  float: right;
+  padding-left: 15px;
+  height: 250px;
+  width: 320px;
+}
+
+li.list
+{
+  padding-left: 20px;
+  list-style-image: url("./images/marker.gif");
+}
+
+footer
+{
+  background-image: url("./images/lighthouselogo1.jpg");
+  background-repeat: repeat-x;
+  height: 50px;
+  margin-top: -2em;
+  border-style: solid;
+  border-radius: 6px;
+  border-color: #FFE4C4;
+  color: #191970;
+  font-size: small;
+  font-style: italic;
+  text-align: center;
+}
+
+li
+{
+  color: #FFE4C4;
+  padding-bottom: 10px;
+}
+
+p u strong
+{
+  color: #A52A2A;
+  font-family: calibri;
+  font-size: 1.4em;
+}
+
+p u
+{
+  color: #A52A2A;
+}
+
+li label
+{
+  color: #00008B;
+  display: inline-block;
+  text-align: right;
+  width: 30%;
+}
+
+label
+{
+  float: left;
+  clear: left;
+  text-align: right;
+  display: table-cell;
+}
+
+fieldset ul
+{
+  list-style: none;
+  display: table;
+  width: 100%;
+}
+
+fieldset
+{
+  background-color: #f1f1f1;
+  border: solid;
+  border-radius: 2px;
+  margin-bottom: 12px;
+  overflow: hidden;
+  padding: 0.3em 1em;
+}
+
+fieldset li
+{
+  display: table-row;
+}
+
+/*All ids*/
+
+#inside
+{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#maintext
+{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#main
+{
+  display: table-cell;
+  padding: 10px 20px;
+}
+
+#address
+{
+  background-image: url("./images/ocean.jpg");
+  background-repeat: no-repeat;
+  color: #191970;
+  font-size: 13pt;
+  font-family: calibri;
+  font-size: 97%;
+  border-style: solid;
+  border-radius: 6px;
+  border-color: #FFE4C4;
+  width: 200px;
+  display: table-cell;
+}
+
+#inneraddress
+{
+  margin-left: 10px;
+}
+
+#tele
+{
+  color: white;
+  display: block;
+  margin-left: 10px;
+}
+
+#hyperPhone
+{
+  display: none;
+}
+
+#contentinfo
+{
+  background-color: #191970;
+  color: #FFE4C4;
+  font-size: small;
+  font-style: italic;
+  text-align: center;
+}
+
+/*All Classes*/
+
+.wrapper
+{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
+  min-width: 750px;
+  width: 80%;
+}
+
+.mobileText
+{
+  display: none;
+}
+
+.charCount
+{
+  color: black;
+  text-align: right;
+}
+
+
+.videoTitle
+{
+  background-color: #FFE4C4;
+}
+
+.videoImg
+{
+  float: left;
+  padding-bottom: 5px;
+  width: 48%;
+}
+
+/*For tablet views*/
+@media (max-width: 64em)
+{
+  #tele
+  {
+    display: block;
+  }
+
+  #hyperPhone
+  {
+    display: none;
+  }
+
+  body
+  {
+    margin: 0;
+  }
+
+  div
+  {
+    min-width: 0;
+    width: auto;
+    box-shadow: none;
+  }
+
+  #main
+  {
+    margin-left: 0;
+    display: block;
+  }
+
+  nav
+  {
+    display: block;
+    width: auto;
+    text-align: center;
+    padding: 0.5em;
+  }
+
+  nav li
+  {
+    display: inline;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    list-style-type: none;
+  }
+
+  main img
+  {
+    margin-bottom: 5px;
+  }
+
+  aside
+  {
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  .wrapper
+  {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 90%
+  }
+
+  #address
+  {
+    background: none;
+    border: none;
+    display: inline-block;
+    text-align: center;
+  }
+
+  #addressinfo
+  {
+    text-align: center;
+  }
+}
+
+/*For mobile viewers*/
+@media (max-width: 37.5em)
+{
+  header
+  {
+    padding-top: 1em;
+  }
+
+  #main
+  {
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 90%;
+    width: 100%;
+
+  }
+
+  #main img
+  {
+    background: none;
+    height: 0;
+  }
+
+  h1
+  {
+    font-size: 1.5em;
+  }
+
+  nav li a
+  {
+    display: block;
+  }
+
+  a
+  {
+    display: block;
+  }
+
+  nav li
+  {
+    display: block;
+    margin: 0;
+    border-bottom: 1px solid #FFE4C4;
+    border-bottom-color: #FFE4C4;
+    list-style-type: none;
+  }
+
+  nav li:first-of-type
+  {
+    display: block;
+    border-top: solid 1px;
+    border-top-color: #FFE4C4;
+  }
+
+  #address
+  {
+    background-image: none;
+    border: none;
+    text-align: center;
+  }
+
+  aside
+  {
+    padding-top: 15px;
+  }
+
+  nav a
+  {
+    display: block;
+  }
+
+  .wrapper
+  {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 90%;
+  }
+
+  article
+  {
+    width: 35em;
+  }
+
+  nav
+  {
+    margin-left: 0px;
+  }
+
+  #tele
+  {
+    display: none;
+  }
+
+  #hyperPhone
+  {
+    display: block;
+  }
+
+  table
+  {
+    height: 0;
+    display: none;
+  }
+
+  .mobileText
+  {
+    display: block;
+  }
+
+  li label
+  {
+    width: 100%;
+    text-align: left;
+  }
+}
